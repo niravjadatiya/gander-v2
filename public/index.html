@@ -39,5 +39,14 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <link href="https://widget-dev.gogander.online/static/css/index.css" rel="stylesheet" />
+<script>
+window.addEventListener('load', (event) => {
+   const script = document.createElement('script');
+   script.src = 'https://widget-dev.gogander.online/static/js/index.js';
+   script.defer = true;
+   document.body.appendChild(script);
+});
+</script>
   </body>
 </html>
